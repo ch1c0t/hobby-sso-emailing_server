@@ -1,0 +1,10 @@
+doctype 5
+html
+  head
+    title Login via emailed link
+  body
+    form(action=script_name method='post')
+      p Please submit an email you have access to.
+      input(type='email' placeholder='Email' name='email' required)
+      input(type='hidden' value=service)
+      button(type='submit') Submit
